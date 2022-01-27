@@ -1,0 +1,44 @@
+@font-face {
+    font-family: 'Work Sans';
+    src:
+           url("../fonts/WorkSans-VariableFont_wght.ttf") format("ttf");
+   }
+h1 {
+    font-family: 'Work Sans';
+    font-weight: 1000;
+    font-size: 48px;
+    color: $h1color;
+}
+h2 {
+    color: $h2color;
+    font-size: 30px;
+    font-family: $font-family;
+    font-weight: bold;
+}
+h3 {
+    color: $h3color;
+    font-family: $font-family;
+    font-size: 20px;
+    font-weight: bold;
+}
+h4 {
+    font-family: $font-family;
+    font-size: 16px;
+    font-weight: 200;
+    color: $h4color;
+}
+h5 {
+    font-family: $font-family;
+    font-size: 10px;
+    font-weight: 200;
+    color: white;
+}
+
+
+@media (max-width:560px) {
+    h1 {
+
+        font-size: 36px;
+        
+    }
+}

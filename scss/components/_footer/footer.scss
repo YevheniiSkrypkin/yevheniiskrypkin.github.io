@@ -1,0 +1,40 @@
+// @media (max-width: 768px) {
+    .footer-wrapper {
+        background-color: $footerColor;
+    
+    }
+    .social-gaps ul li:not(:last-child) {
+        margin-right: 30px;
+    }
+
+    .social {
+        height: 25px;
+    }
+
+    
+// }
+
+.footer-links ul {
+    text-align: center;
+    }
+    li {
+    list-style-type: none;
+    display: inline;
+    }
+    li:not(:last-child) {
+        margin-right: 10px;
+    }
+    
+
+.footer-links ul li a {
+    color: white;
+    text-decoration: none;
+}
+.footer-links ul li a:active {
+    color: white;
+    text-decoration: underline;
+}
+
+.footer-creativity {
+    text-align: center;
+}

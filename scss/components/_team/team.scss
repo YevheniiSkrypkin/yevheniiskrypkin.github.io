@@ -1,0 +1,77 @@
+@media (max-width: 768px) {
+    .team-render img {
+        width: 200px;
+    }
+    .team-text {
+        justify-content:safe
+    }
+    .team-text:first-child {
+        text-align: center;
+    }
+
+    .team-button {
+        padding: 17px 30px;
+        border-radius: 20px;
+        background:none;
+        border: none;
+        font-weight: bold;
+        color: $h1color;
+        transition: .3s;
+    }
+    .team-button:hover {
+        background-color: red;
+        color: white;
+        transition: .3s;
+    }
+
+    .team-image:last-child {
+        width: 100%;
+        img {
+            width: 60%;
+        }
+    }
+
+    .team-jpg {
+        display: block;
+    }
+}
+
+main {
+    margin-top: 30px;
+}
+
+.team-button {
+    padding: 17px 30px;
+    border-radius: 20px;
+    background:none;
+    border: none;
+    font-weight: bold;
+    color: $h1color;
+    transition: .3s;
+}
+.team-button:hover {
+    background-color: red;
+    color: white;
+    transition: .3s;
+}
+
+.slick-track {
+    display: flex;
+    align-items: center;
+}
+
+.team-jpg {
+    
+    img {
+        width: 350px;
+    }
+}
+@media(min-width:769px) {
+    .team-jpg {
+        display: none!important;
+    }
+    .slick-initialized {
+        .team-jpg {display: flex!important;}
+    }
+    
+}
