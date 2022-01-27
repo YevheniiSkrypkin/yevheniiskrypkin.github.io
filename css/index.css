@@ -321,6 +321,8 @@ textarea {
   background-color: #f4fafe;
   padding-left: 10px;
   border: none;
+  height: 80px;
+  resize: none;
 }
 
 .message-button {
