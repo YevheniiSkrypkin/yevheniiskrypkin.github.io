@@ -6,7 +6,7 @@
         img {
             width: 40%;
             padding: 10px;
-            background-color: #c3d0d8;
+            
         }
     }
     .works-container {
@@ -24,12 +24,12 @@
 
 .works-sample {
         
-    height: 25%;
+    // width: 25%;
     // text-align: center;
     img {
-        width: 80%;
-        padding: 10px;
-        background-color: #c3d0d8;
+        width: 100%;
+        // padding: 10px;
+        // background-color: #c3d0d8;
     }
 }
 @media (min-width:769px) {
@@ -45,7 +45,7 @@
     background:none;
     border: none;
     font-weight: bold;
-    color: $h1color;
+    color: $h2color;
     transition: .3s;
 }
 .works-button:hover {

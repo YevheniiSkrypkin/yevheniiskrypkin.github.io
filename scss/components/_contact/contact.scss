@@ -21,3 +21,18 @@ textarea {
     padding-left: 10px;
     border: none;
 }
+
+.message-button {
+    padding: 17px 30px;
+    border-radius: 20px;
+    background-color:$h2color;
+    border: none;
+    font-weight: bold;
+    color: white;
+    transition: .3s;
+}
+.message-button:hover {
+    background-color: white;
+    color: $h2color;
+    transition: .3s;
+}
