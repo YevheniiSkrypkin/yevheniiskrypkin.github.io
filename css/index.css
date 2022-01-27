@@ -269,6 +269,7 @@ main {
   .works-container {
     flex-wrap: wrap;
     justify-content: center;
+    text-align: center;
   }
 }
 .works-wrapper h2 {
@@ -276,6 +277,20 @@ main {
 }
 
 .works-sample img {
+  width: 100%;
+}
+
+.works-sample:nth-of-type(1) {
+  padding-left: 0;
+}
+.works-sample:nth-of-type(1) img {
+  width: 100%;
+}
+
+.works-sample:nth-of-type(4) {
+  padding-left: 0;
+}
+.works-sample:nth-of-type(4) img {
   width: 100%;
 }
 

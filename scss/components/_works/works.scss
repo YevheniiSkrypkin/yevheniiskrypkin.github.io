@@ -12,6 +12,7 @@
     .works-container {
         flex-wrap: wrap;
         justify-content: center;
+        text-align: center;
     }
 
 
@@ -27,6 +28,22 @@
         width: 100%;
     }
 }
+.works-sample:nth-of-type(1) {
+    padding-left: 0;
+    img {
+        width: 100%;
+
+    }
+}
+
+.works-sample:nth-of-type(4) {
+    padding-left: 0;
+    img {
+        width: 100%;
+
+    }
+}
+
 @media (min-width:769px) {
     .text-right {
         text-align: right;
