@@ -18,11 +18,6 @@ body {
   border: 1px solid black;
 }
 
-.container {
-  padding-left: 100px;
-  padding-right: 100px;
-}
-
 @font-face {
   font-family: "Work Sans";
   src: url("../fonts/WorkSans-VariableFont_wght.ttf") format("ttf");
