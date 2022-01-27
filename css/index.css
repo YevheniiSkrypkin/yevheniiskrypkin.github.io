@@ -18,6 +18,11 @@ body {
   border: 1px solid black;
 }
 
+.container {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
 @font-face {
   font-family: "Work Sans";
   src: url("../fonts/WorkSans-VariableFont_wght.ttf") format("ttf");
@@ -106,14 +111,38 @@ h5 {
   .second-contact {
     display: none;
   }
+
+  nav.navbar {
+    position: relative;
+  }
+
+  .hover-style {
+    position: absolute;
+    top: 50px;
+    background-color: white;
+    border: 1px solid #314584;
+  }
+
+  .container-header {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+
+  .container {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
 }
 .navbar-light .navbar-nav .nav-link {
   color: #314584;
   font-weight: bold;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
   color: #ff3946;
+  padding: initial 10px;
   border-radius: 5px;
   -webkit-box-shadow: -3px -1px 12px 1px rgba(34, 60, 80, 0.2);
   -moz-box-shadow: -3px -1px 12px 1px rgba(34, 60, 80, 0.2);

@@ -40,6 +40,26 @@
             display: none;
         }
 
+        nav.navbar {
+            position: relative;
+        }
+        .hover-style {
+            position: absolute;
+            top: 50px;
+            background-color: white;
+            border: 1px solid $h1color;
+        }
+
+        .container-header {
+            padding-right: 0px;
+            padding-left: 0px;
+        }
+
+        .container {
+            padding-left: 0px;
+            padding-right: 0px;
+        }
+
     }
     
 // }
@@ -51,10 +71,13 @@
 .navbar-light .navbar-nav .nav-link {
     color: $h1color;
     font-weight: bold;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
     color: $h2color;
+    padding: initial 10px;
     border-radius: 5px;
     -webkit-box-shadow: -3px -1px 12px 1px rgba(34, 60, 80, 0.2);
     -moz-box-shadow: -3px -1px 12px 1px rgba(34, 60, 80, 0.2);
