@@ -9,7 +9,6 @@
 }
 }
 }
-
 @media (max-width: 768px) {
     .navbar-nav {
         align-items: end;
@@ -51,7 +50,6 @@
         .second-contact {
             display: none;
         }
-
         nav.navbar {
             position: relative;
         }
@@ -61,21 +59,12 @@
             background-color: white;
             border: 1px solid $h1color;
         }
-
         .container-header {
             padding-right: 0px;
             padding-left: 0px;
         }
-
-        // .container {
-        //     padding-left: 0px;
-        //     padding-right: 0px;
-        // }
-
     }
-    
-// }
-//mobile//
+
 
 .navbar-light .navbar-nav .nav-link {
     color: $h1color;
@@ -91,8 +80,6 @@
     -webkit-box-shadow: -3px -1px 12px 1px rgba(34, 60, 80, 0.2);
     -moz-box-shadow: -3px -1px 12px 1px rgba(34, 60, 80, 0.2);
     box-shadow: -3px -1px 12px 1px rgba(34, 60, 80, 0.2);
-    
-    
 }
 
 .dropdown-item {

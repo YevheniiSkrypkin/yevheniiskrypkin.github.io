@@ -8,7 +8,6 @@
     .team-text:first-child {
         text-align: center;
     }
-
     .team-button {
         padding: 17px 30px;
         border-radius: 20px;
@@ -23,14 +22,12 @@
         color: white;
         transition: .3s;
     }
-
     .team-image:last-child {
         width: 100%;
         img {
             width: 60%;
         }
     }
-
     .team-jpg {
         display: block;
     }
@@ -61,7 +58,6 @@ main {
 }
 
 .team-jpg {
-    
     img {
         width: 350px;
     }
@@ -77,5 +73,4 @@ main {
         justify-content: center;
     text-align: center;
     }
-    
 }
