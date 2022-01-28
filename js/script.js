@@ -4,7 +4,9 @@ $(document).ready(function(){
         speed: 700,
         slidesToShow: 1,
         slidesToScroll: 1,
-        arrows: false,                
+        arrows: false,   
+        autoplay: true,
+        autoplaySpeed: 2000,             
         responsive: [
             {
             breakpoint: 769,
